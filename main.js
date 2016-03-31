@@ -1,4 +1,4 @@
-function fib(n) { return n === 0 ? 0 : (n === 1 ? 1 : fib(n - 1) + fib(n - 2)) }
+function fib(n) { return n === 0 ? 0 : n === 1 ? 1 : fib(n - 1) + fib(n - 2) }
 
 console.log("  n = 0, 1, 2, 3, 4, 5, 6,  7,  8,  9, 10");
 console.log("-----------------------------------------");
